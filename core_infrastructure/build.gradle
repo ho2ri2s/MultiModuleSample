@@ -6,10 +6,12 @@ apply plugin: 'kotlin-kapt'
 apply from: rootProject.file('gradle/config.gradle')
 
 dependencies {
-    implementation project(':core_presentation')
-    implementation project(':core_infrastructure')
-    api project(':core_model')
+    implementation project(':core_model')
 
+    implementation libs.kotlin.stdlib
+    implementation libs.androidx.core
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.constraintlayout
     implementation libs.dagger.java.core
     kapt libs.dagger.java.compiler
 }
