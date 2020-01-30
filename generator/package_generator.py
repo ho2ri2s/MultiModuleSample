@@ -40,8 +40,7 @@ class PackageGenerator:
                 prev_class = class_generator
 
 
-def generate_module(app_root: Path, module_num: int, use_dagger: bool):
-    module_name = "module{}".format(module_num)
+def generate_module(app_root: Path, module_num: int, module_name: str, use_dagger: bool):
     src_path = app_root / module_name / "src/main/java/com/ho2ri2s/multimodulesample" / module_name
     generator = PackageGenerator(
         src_path,
@@ -63,7 +62,9 @@ def generate_root_module():
 
 if __name__ == '__main__':
     app = Path("/Users/yuta.hori/AndroidStudioProjects/MultiModuleSample")
-    generate_module(app, 1, True)
-    generate_module(app, 2, True)
-    generate_module(app, 3, True)
+    # generate_module(app, 1, True)
+    # generate_module(app, 2, True)
+    # generate_module(app, 3, True)
     # generate_module(app, 4, True)
+    # generate_module(app, 5, True)
+    generate_module(app, 6, "core_infrastructure", True)
