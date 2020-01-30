@@ -7,7 +7,7 @@ apply from: rootProject.file('gradle/config.gradle')
 
 dependencies {
     api project(':core_presentation')
-    api project(':core_infrastructure')
+    implementation project(':core_infrastructure')
 
     implementation libs.dagger.java.core
     kapt libs.dagger.java.compiler
