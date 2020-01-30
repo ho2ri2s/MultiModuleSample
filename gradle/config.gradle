@@ -6,6 +6,9 @@ android {
         minSdkVersion versions.android.minSdk
     }
     buildTypes {
+        debubg {
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
             consumerProguardFiles 'proguard-rules.pro'
