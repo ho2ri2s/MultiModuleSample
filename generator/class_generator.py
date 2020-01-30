@@ -1,3 +1,5 @@
+# referenced https://github.com/yamamotoj/android_multi_module_experiment/tree/master/generator
+
 from pathlib import Path
 from typing import Optional
 
