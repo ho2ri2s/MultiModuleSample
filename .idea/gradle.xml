@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core_gateway" />
             <option value="$PROJECT_DIR$/core_model" />
+            <option value="$PROJECT_DIR$/core_presentation" />
             <option value="$PROJECT_DIR$/module1" />
             <option value="$PROJECT_DIR$/module2" />
           </set>
