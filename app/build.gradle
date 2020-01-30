@@ -8,7 +8,6 @@ apply from: rootProject.file('gradle/config.gradle')
 dependencies {
     implementation project(':module1')
     implementation project(':module2')
-    implementation project(':core_model')
 
     implementation libs.kotlin.stdlib
     implementation libs.androidx.core
