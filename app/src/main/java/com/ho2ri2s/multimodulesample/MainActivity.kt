@@ -1,4 +1,4 @@
-package com.example.multimodulesample
+package com.ho2ri2s.multimodulesample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
