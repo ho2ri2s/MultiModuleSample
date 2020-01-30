@@ -9,6 +9,7 @@ dependencies {
     implementation project(':module1')
     implementation project(':module2')
     implementation project(':core_model')
+    implementation project(':core_gateway')
 
     implementation libs.kotlin.stdlib
     implementation libs.androidx.core

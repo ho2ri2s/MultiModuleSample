@@ -63,7 +63,7 @@ def generate_root_module():
 
 if __name__ == '__main__':
     app = Path("/Users/yuta.hori/AndroidStudioProjects/MultiModuleSample")
-    generate_module(app, 1, True)
-    generate_module(app, 2, True)
-    generate_module(app, 3, True)
-    # generate_module(app, 4, True)
+    # generate_module(app, 1, True)
+    # generate_module(app, 2, True)
+    # generate_module(app, 3, True)
+    generate_module(app, 4, True)
